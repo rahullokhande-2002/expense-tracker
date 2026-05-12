@@ -4,4 +4,4 @@ from .models import Expenses
 class  ExpenseSerializers(ModelSerializer):
     class Meta:
         model=Expenses
-        field='__all__'
+        fields = "__all__"
